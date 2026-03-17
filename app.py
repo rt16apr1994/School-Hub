@@ -45,7 +45,7 @@ st.markdown("""
 # --- Header Section ---
 st.markdown("""
     <div class="header-box">
-        <h1 style='margin:0;'>THE SANSKRITI SCHOOL</h1>
+        <h1 style='margin:0;'>Gyan Jyoti Academy 2</h1>
         <p style='font-size: 1.2rem;'>Nurturing Excellence, Enriching Lives</p>
     </div>
     """, unsafe_allow_html=True)
@@ -119,9 +119,9 @@ with col2:
     """, unsafe_allow_html=True)
 
 # --- Sidebar ---
-st.sidebar.image("https://via.placeholder.com/150x150.png?text=SCHOOL+LOGO", width=150)
+st.sidebar.image("logo.png", width=150)
 st.sidebar.title("Navigation")
-st.sidebar.info("📍 Location: Lucknow, India")
+st.sidebar.info("📍 Location: Bhopal, India")
 st.sidebar.button("Download Prospectus")
 st.sidebar.button("School Gallery")
 st.sidebar.write("---")
